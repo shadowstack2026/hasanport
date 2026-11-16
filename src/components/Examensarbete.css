@@ -1,0 +1,39 @@
+.thesis-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.thesis {
+  display: grid;
+  grid-template-columns: .7fr 1.3fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.thesis-visual {
+  min-height: 280px;
+  border-radius: 12px;
+  background:
+    linear-gradient(135deg, rgba(99,216,227,.12), transparent),
+    #111720;
+  border: 1px solid #263140;
+  display: grid;
+  place-items: center;
+  color: #63d8e3;
+  font-size: 4rem;
+}
+
+@media (max-width: 860px) {
+  .thesis {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .thesis-visual {
+    background: white;
+    border-color: #ddd;
+  }
+}

@@ -1,0 +1,24 @@
+.section-heading {
+  margin-bottom: 34px;
+}
+
+.label {
+  color: #63d8e3;
+  font-size: .8rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.section-intro {
+  max-width: 720px;
+  margin: 13px 0 0;
+  color: #a8b3c2;
+}
+
+@media print {
+  .section-intro {
+    color: #444;
+  }
+}

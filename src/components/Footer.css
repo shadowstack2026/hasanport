@@ -1,0 +1,13 @@
+footer {
+  padding: 34px 0 44px;
+  border-top: 1px solid #263140;
+  color: #a8b3c2;
+  text-align: center;
+  font-size: .88rem;
+}
+
+@media print {
+  footer {
+    display: none;
+  }
+}

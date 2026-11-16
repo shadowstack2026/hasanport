@@ -1,0 +1,16 @@
+[
+  { "id": 1, "rubrik": { "en": "Location", "sv": "Plats" }, "text": { "en": "Sweden", "sv": "Sverige" } },
+  {
+    "id": 2,
+    "rubrik": { "en": "Education", "sv": "Utbildning" },
+    "text": { "en": "Computer Engineering, 180 ECTS", "sv": "Datateknik, 180 hp" }
+  },
+  {
+    "id": 3,
+    "rubrik": { "en": "Current status", "sv": "Nuvarande status" },
+    "text": {
+      "en": "Degree project completed; remaining examinations in progress",
+      "sv": "Examensarbetet klart; återstående examinationer pågår"
+    }
+  }
+]

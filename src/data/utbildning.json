@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titel": {
+      "en": "Bachelor of Science in Computer Engineering, 180 ECTS",
+      "sv": "Kandidatexamen i datateknik, 180 hp"
+    },
+    "meta": { "en": "Halmstad University", "sv": "Högskolan i Halmstad" },
+    "text": {
+      "en": "Degree project completed. Remaining examinations are currently being completed. Relevant coursework includes databases, algorithms and data structures, distributed systems, computer systems, data communication, embedded systems and programming.",
+      "sv": "Examensarbetet är klart. Återstående examinationer avslutas just nu. Relevanta kurser är bland annat databaser, algoritmer och datastrukturer, distribuerade system, datorsystem, datakommunikation, inbyggda system och programmering."
+    }
+  },
+  {
+    "id": 2,
+    "titel": { "en": "Degree project, 15 ECTS", "sv": "Examensarbete, 15 hp" },
+    "meta": { "en": "Completed in 2026", "sv": "Slutfört 2026" },
+    "text": {
+      "en": "Feasibility of Integrated Sensing and Communication using Wi-Fi, ESP32-C3, CSI, RSSI and FTM.",
+      "sv": "Genomförbarhet för integrerad avkänning och kommunikation med Wi-Fi, ESP32-C3, CSI, RSSI och FTM."
+    }
+  }
+]

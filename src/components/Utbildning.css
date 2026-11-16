@@ -1,0 +1,31 @@
+.timeline {
+  display: grid;
+  gap: 18px;
+}
+
+.timeline-entry {
+  padding-left: 20px;
+  border-left: 2px solid #63d8e3;
+}
+
+.timeline-entry h3 {
+  margin: 0 0 5px;
+  font-size: 1.17rem;
+}
+
+.timeline-entry .meta {
+  color: #63d8e3;
+  font-size: .9rem;
+  font-weight: 650;
+}
+
+.timeline-entry p {
+  color: #a8b3c2;
+  margin-bottom: 0;
+}
+
+@media print {
+  .timeline-entry p {
+    color: #444;
+  }
+}
