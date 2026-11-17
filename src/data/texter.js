@@ -3,10 +3,9 @@ export const TEXTER = {
   en: {
     nav: {
       meny: "Main navigation",
-      about: "About",
       skills: "Skills",
       thesis: "Thesis",
-      projects: "Projects",
+      projects: "School projects",
       uppdrag: "Client work",
       education: "Education",
       contact: "Contact",
@@ -15,8 +14,6 @@ export const TEXTER = {
     },
     hero: {
       intro: "Hello, I'm",
-      roll: "Computer engineering graduate candidate",
-      fokus: "Software development · Embedded systems · Data analysis",
       lead: [
         "I am a motivated and curious computer engineer with a strong foundation in programming, data management and system development. I have completed my degree thesis and have two remaining courses, both of which are in their final examination stage.",
         "I am currently taking part in a tech trainee program in Helsingborg, where I get the chance to keep developing, collaborate with others and work together with different companies. It gives me valuable practical experience and a good insight into how technology is used in real projects.",
@@ -33,13 +30,6 @@ export const TEXTER = {
       bildAlt: "Portrait of Hasan Hamzi",
       badgeTitel: "Computer Engineer",
     },
-    omMig: {
-      etikett: "About",
-      rubrik: "A practical engineering background",
-      intro: "I am close to completing a Bachelor of Science in Computer Engineering at Halmstad University. My degree project is completed, and I am currently finishing the remaining examinations.",
-      stycke1: "Through coursework and team projects, I have worked with Python, Java, C, C++, SQL, Django, REST APIs, embedded systems and databases.",
-      stycke2: "I am especially interested in junior roles where I can continue developing with support from experienced colleagues while contributing with curiosity, responsibility and a willingness to learn.",
-    },
     kompetenser: {
       etikett: "Skills",
       rubrik: "Technologies I have worked with",
@@ -55,7 +45,7 @@ export const TEXTER = {
       knapp: "Read thesis",
     },
     projekt: {
-      etikett: "Projects",
+      etikett: "School projects",
       rubrik: "Selected academic work",
     },
     utbildning: {
@@ -73,18 +63,16 @@ export const TEXTER = {
     uppdrag: {
       etikett: "Client work",
       rubrik: "Real-world projects",
-      intro: "Work I have done outside of school for real clients and users.",
-      tom: "Nothing added yet – client projects will appear here.",
-      knapp: "View project",
+      intro: "Projects I have done outside of school for real companies.",
+      knapp: "Visit site",
     },
   },
   sv: {
     nav: {
       meny: "Huvudmeny",
-      about: "Om mig",
       skills: "Kompetenser",
       thesis: "Examensarbete",
-      projects: "Projekt",
+      projects: "Skolprojekt",
       uppdrag: "Uppdrag",
       education: "Utbildning",
       contact: "Kontakt",
@@ -93,8 +81,6 @@ export const TEXTER = {
     },
     hero: {
       intro: "Hej, jag är",
-      roll: "Examenskandidat inom datateknik",
-      fokus: "Mjukvaruutveckling · Inbyggda system · Dataanalys",
       lead: [
         "Jag är en motiverad och nyfiken datateknikingenjör med en stark grund inom programmering, datahantering och systemutveckling. Jag har slutfört mitt examensarbete och har två återstående kurser, båda i slutskedet av examinationen.",
         "Just nu deltar jag i ett tech trainee-program i Helsingborg, där jag får möjlighet att utvecklas vidare, samarbeta med andra och arbeta tillsammans med olika företag. Det ger mig värdefull praktisk erfarenhet och en bra inblick i hur teknik används i verkliga projekt.",
@@ -111,13 +97,6 @@ export const TEXTER = {
       bildAlt: "Porträtt av Hasan Hamzi",
       badgeTitel: "Datateknikingenjör",
     },
-    omMig: {
-      etikett: "Om mig",
-      rubrik: "En praktisk ingenjörsbakgrund",
-      intro: "Jag är nära att slutföra en kandidatexamen i datateknik vid Högskolan i Halmstad. Mitt examensarbete är klart och jag avslutar just nu de återstående examinationerna.",
-      stycke1: "Genom kurser och teamprojekt har jag arbetat med Python, Java, C, C++, SQL, Django, REST-API:er, inbyggda system och databaser.",
-      stycke2: "Jag är särskilt intresserad av juniora roller där jag kan fortsätta utvecklas med stöd av erfarna kollegor, samtidigt som jag bidrar med nyfikenhet, ansvarstagande och lust att lära.",
-    },
     kompetenser: {
       etikett: "Kompetenser",
       rubrik: "Tekniker jag har arbetat med",
@@ -133,7 +112,7 @@ export const TEXTER = {
       knapp: "Läs examensarbetet",
     },
     projekt: {
-      etikett: "Projekt",
+      etikett: "Skolprojekt",
       rubrik: "Utvalt skolarbete",
     },
     utbildning: {
@@ -150,10 +129,9 @@ export const TEXTER = {
     },
     uppdrag: {
       etikett: "Uppdrag",
-      rubrik: "Verkliga uppdrag",
-      intro: "Arbete jag har gjort utanför skolan åt riktiga kunder och användare.",
-      tom: "Inget tillagt ännu – uppdrag visas här när de läggs till.",
-      knapp: "Visa projekt",
+      rubrik: "Verkliga projekt",
+      intro: "Projekt jag har gjort utanför skolan åt riktiga företag.",
+      knapp: "Besök sidan",
     },
   },
 };

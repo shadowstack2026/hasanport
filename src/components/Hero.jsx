@@ -13,8 +13,6 @@ function Hero() {
         <div>
           <div className="intro">{h.intro}</div>
           <h1>{NAME}</h1>
-          <p className="role">{h.roll}</p>
-          <p className="focus">{h.fokus}</p>
           {/* Ett stycke per sträng i listan */}
           {h.lead.map((stycke) => (
             <p className="lead" key={stycke}>{stycke}</p>

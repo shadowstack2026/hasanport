@@ -14,11 +14,10 @@ function Navbar() {
         <Link className="name" to="/#home">{NAME}</Link>
         <div className="nav-hoger">
           <nav className="nav-links" aria-label={n.meny}>
-            <Link to="/#about">{n.about}</Link>
             <Link to="/#skills">{n.skills}</Link>
+            <Link to="/#uppdrag">{n.uppdrag}</Link>
             <Link to="/#thesis">{n.thesis}</Link>
             <Link to="/#projects">{n.projects}</Link>
-            <Link to="/uppdrag">{n.uppdrag}</Link>
             <Link to="/#education">{n.education}</Link>
             <Link to="/#contact">{n.contact}</Link>
           </nav>

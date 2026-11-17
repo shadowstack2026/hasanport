@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": 1,
+    "titel": "Badhusgatan 4",
+    "text": {
+      "en": "A digital hub for startups, smaller IT companies and consultants in Helsingborg who want a workplace of their own and a good community. The site presents the hub and its ecosystem – the companies that are part of it and the events that take place there.",
+      "sv": "En digital hubb för startups, mindre IT-bolag och konsulter i Helsingborg som vill ha en egen arbetsplats och ett schysst häng. Sidan presenterar hubben och dess ekosystem – företagen som finns där och de event som arrangeras."
+    },
+    "teknik": ["React", "Supabase", "Vercel"],
+    "lank": "https://badhusgatan4.vercel.app/"
+  },
+  {
+    "id": 2,
+    "titel": "Hantverkskollen",
+    "text": {
+      "en": "A Swedish website for finding craftsmen and comparing quotes. Homeowners can search by trade and location, use a price calculator that includes the ROT deduction, and request free, non-binding quotes. It also has guides and articles on prices and deductions.",
+      "sv": "En svensk webbplats för att hitta hantverkare och jämföra offerter. Husägare kan söka efter yrke och ort, använda en priskalkylator som tar hänsyn till ROT-avdraget och begära kostnadsfria, icke bindande offerter. Där finns också guider och artiklar om priser och avdrag."
+    },
+    "teknik": [],
+    "lank": "https://www.hantverkskollen.se/"
+  }
+]

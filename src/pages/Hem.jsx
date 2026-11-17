@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
-import OmMig from "../components/OmMig";
 import Kompetenser from "../components/Kompetenser";
 import Examensarbete from "../components/Examensarbete";
+import Uppdrag from "../components/Uppdrag";
 import Projekt from "../components/Projekt";
 import Utbildning from "../components/Utbildning";
 import Kontakt from "../components/Kontakt";
@@ -24,8 +24,8 @@ function Hem() {
   return (
     <main>
       <Hero />
-      <OmMig />
       <Kompetenser />
+      <Uppdrag />
       <Examensarbete />
       <Projekt />
       <Utbildning />
