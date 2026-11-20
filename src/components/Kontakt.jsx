@@ -7,27 +7,38 @@ function Kontakt() {
   const { text } = useSprak();
   const k = text.kontakt;
 
+  const lankar = [
+    { etikett: k.epost, varde: EMAIL, href: `mailto:${EMAIL}`, extern: false },
+    { etikett: "GitHub", varde: `github.com/${GITHUB_USER}`, href: `https://github.com/${GITHUB_USER}`, extern: true },
+    { etikett: "LinkedIn", varde: NAME, href: LINKEDIN_URL, extern: true },
+  ];
+
   return (
     <section id="contact">
       <div className="container">
         <SektionRubrik etikett={k.etikett} rubrik={k.rubrik} intro={k.intro} />
 
         <div className="contact">
-          <div className="card reveal">
+          <div className="card contact-card reveal">
             <h3>{k.kortRubrik}</h3>
             <p>{k.kortText}</p>
           </div>
 
           <div className="contact-links reveal">
-            <a className="contact-link" href={`mailto:${EMAIL}`}>
-              {k.epost} — {EMAIL}
-            </a>
-            <a className="contact-link" href={`https://github.com/${GITHUB_USER}`} target="_blank" rel="noreferrer">
-              GitHub — github.com/{GITHUB_USER}
-            </a>
-            <a className="contact-link" href={LINKEDIN_URL} target="_blank" rel="noreferrer">
-              LinkedIn — {NAME}
-            </a>
+            {lankar.map((l) => (
+              <a
+                key={l.etikett}
+                className="contact-link"
+                href={l.href}
+                {...(l.extern ? { target: "_blank", rel: "noreferrer" } : {})}
+              >
+                <span className="contact-text">
+                  <span className="contact-label">{l.etikett}</span>
+                  <span className="contact-value">{l.varde}</span>
+                </span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+            ))}
           </div>
         </div>
       </div>
