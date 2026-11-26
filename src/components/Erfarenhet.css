@@ -1,0 +1,26 @@
+.experience {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.experience h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.experience p {
+  color: #a8b3c2;
+}
+
+@media (max-width: 860px) {
+  .experience {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .experience p {
+    color: #444;
+  }
+}

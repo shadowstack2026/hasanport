@@ -4,6 +4,7 @@ export const TEXTER = {
     nav: {
       meny: "Main navigation",
       skills: "Skills",
+      erfarenhet: "Experience",
       thesis: "Thesis",
       projects: "School projects",
       uppdrag: "Client work",
@@ -34,6 +35,16 @@ export const TEXTER = {
       etikett: "Skills",
       rubrik: "Technologies I have worked with",
       intro: "I avoid percentage ratings because skills are better shown through actual projects.",
+    },
+    erfarenhet: {
+      etikett: "Experience",
+      rubrik: "Tech Trainee program",
+      intro: "In Helsingborg I am deepening my knowledge of web development while taking part in real projects.",
+      punkter: [
+        { titel: "Web development", text: "A deeper understanding of how websites are planned and built." },
+        { titel: "Project leadership", text: "I had tried leading projects at university. Now I do it in practice, with greater responsibility." },
+        { titel: "Teamwork and clients", text: "Planning, daily meetings, documentation and talking with the client." },
+      ],
     },
     examensarbete: {
       etikett: "Degree project",
@@ -71,6 +82,7 @@ export const TEXTER = {
     nav: {
       meny: "Huvudmeny",
       skills: "Kompetenser",
+      erfarenhet: "Erfarenhet",
       thesis: "Examensarbete",
       projects: "Skolprojekt",
       uppdrag: "Uppdrag",
@@ -101,6 +113,16 @@ export const TEXTER = {
       etikett: "Kompetenser",
       rubrik: "Tekniker jag har arbetat med",
       intro: "Jag undviker procentbetyg eftersom kompetens visas bäst genom verkliga projekt.",
+    },
+    erfarenhet: {
+      etikett: "Erfarenhet",
+      rubrik: "Tech Trainee-programmet",
+      intro: "I Helsingborg fördjupar jag mina kunskaper om hemsidor samtidigt som jag deltar i riktiga projekt.",
+      punkter: [
+        { titel: "Webbutveckling", text: "Djupare förståelse för hur hemsidor planeras och byggs." },
+        { titel: "Projektledning", text: "Jag hade provat på att leda projekt i skolan. Nu gör jag det i praktiken, med större ansvar." },
+        { titel: "Team och kund", text: "Planering, dagliga möten, dokumentation och dialog med kunden." },
+      ],
     },
     examensarbete: {
       etikett: "Examensarbete",

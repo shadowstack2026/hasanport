@@ -27,6 +27,15 @@
   flex: 1;
 }
 
+.project-status {
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid #63d8e3;
+  color: #63d8e3;
+  font-size: .75rem;
+  white-space: nowrap;
+}
+
 @media print {
   .project p {
     color: #444;

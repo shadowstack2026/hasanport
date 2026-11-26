@@ -15,6 +15,7 @@ function Navbar() {
         <div className="nav-hoger">
           <nav className="nav-links" aria-label={n.meny}>
             <Link to="/#skills">{n.skills}</Link>
+            <Link to="/#experience">{n.erfarenhet}</Link>
             <Link to="/#uppdrag">{n.uppdrag}</Link>
             <Link to="/#thesis">{n.thesis}</Link>
             <Link to="/#projects">{n.projects}</Link>

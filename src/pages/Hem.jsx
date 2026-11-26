@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
 import Kompetenser from "../components/Kompetenser";
 import Examensarbete from "../components/Examensarbete";
+import Erfarenhet from "../components/Erfarenhet";
 import Uppdrag from "../components/Uppdrag";
 import Projekt from "../components/Projekt";
 import Utbildning from "../components/Utbildning";
@@ -25,6 +26,7 @@ function Hem() {
     <main>
       <Hero />
       <Kompetenser />
+      <Erfarenhet />
       <Uppdrag />
       <Examensarbete />
       <Projekt />

@@ -1,24 +1,95 @@
 [
   {
     "id": 1,
-    "rubrik": { "en": "Programming", "sv": "Programmering" },
-    "teknik": ["Python", "Java", "C", "C++", "SQL", "HTML", "CSS", "JavaScript"]
+    "rubrik": {
+      "en": "Programming",
+      "sv": "Programmering"
+    },
+    "teknik": [
+      "Python",
+      "Java",
+      "C",
+      "C++",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   },
   {
     "id": 2,
-    "rubrik": { "en": "Frameworks and tools", "sv": "Ramverk och verktyg" },
-    "teknik": ["Django", "REST APIs", "Git / GitHub", "ESP-IDF", "SQLite", "Google Colab", "Mathematica", "MATLAB"]
+    "rubrik": {
+      "en": "Frameworks and tools",
+      "sv": "Ramverk och verktyg"
+    },
+    "teknik": [
+      "Django",
+      "REST APIs",
+      "Git / GitHub",
+      "ESP-IDF",
+      "SQLite",
+      "Google Colab",
+      "Mathematica",
+      "MATLAB"
+    ]
   },
   {
     "id": 3,
-    "rubrik": { "en": "Engineering", "sv": "Ingenjörskunskap" },
+    "rubrik": {
+      "en": "Engineering",
+      "sv": "Ingenjörskunskap"
+    },
     "teknik": [
-      { "en": "Embedded systems", "sv": "Inbyggda system" },
-      { "en": "Object-oriented programming", "sv": "Objektorienterad programmering" },
-      { "en": "Data analysis", "sv": "Dataanalys" },
-      { "en": "System design", "sv": "Systemdesign" },
-      { "en": "Databases", "sv": "Databaser" },
-      { "en": "Wireless sensing", "sv": "Trådlös avkänning" }
+      {
+        "en": "Embedded systems",
+        "sv": "Inbyggda system"
+      },
+      {
+        "en": "Object-oriented programming",
+        "sv": "Objektorienterad programmering"
+      },
+      {
+        "en": "Data analysis",
+        "sv": "Dataanalys"
+      },
+      {
+        "en": "System design",
+        "sv": "Systemdesign"
+      },
+      {
+        "en": "Databases",
+        "sv": "Databaser"
+      },
+      {
+        "en": "Wireless sensing",
+        "sv": "Trådlös avkänning"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "rubrik": {
+      "en": "Web and project work",
+      "sv": "Webb och projektarbete"
+    },
+    "teknik": [
+      "React",
+      "Next.js",
+      "Supabase",
+      "Vercel",
+      "SEO",
+      {
+        "en": "Project management",
+        "sv": "Projektledning"
+      },
+      {
+        "en": "Client communication",
+        "sv": "Kundkommunikation"
+      },
+      {
+        "en": "Documentation",
+        "sv": "Dokumentation"
+      }
     ]
   }
 ]

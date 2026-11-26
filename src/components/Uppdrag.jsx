@@ -23,6 +23,8 @@ function Uppdrag() {
               text={t(p.text)}
               teknik={(p.teknik || []).map(t)}
               lank={p.lank}
+              status={p.status && t(p.status)}
+              animation={p.animation}
               knappText={u.knapp}
             />
           ))}

@@ -1,22 +1,71 @@
 [
   {
+    "id": 3,
+    "titel": {
+      "en": "Ad agency – project lead",
+      "sv": "Reklambyrå – projektledare"
+    },
+    "text": {
+      "en": "I lead a team project for an advertising agency with a strong focus on design and products. I plan the work, carry responsibility for delivery and talk with the client. We use GitHub, hold daily meetings and document our work for the final presentation.",
+      "sv": "Jag är projektledare för ett teamprojekt åt en reklambyrå med stort fokus på design och produkter. Jag planerar arbetet, ansvarar för leveransen och har kontakten med kunden. Vi arbetar i GitHub, har dagliga möten och dokumenterar det vi gör inför slutpresentationen."
+    },
+    "teknik": [
+      {
+        "en": "Project management",
+        "sv": "Projektledning"
+      },
+      "GitHub",
+      {
+        "en": "Teamwork",
+        "sv": "Teamarbete"
+      },
+      {
+        "en": "Client contact",
+        "sv": "Kundkontakt"
+      }
+    ],
+    "animation": "tavla"
+  },
+  {
     "id": 1,
     "titel": "Badhusgatan 4",
     "text": {
-      "en": "A digital hub for startups, smaller IT companies and consultants in Helsingborg who want a workplace of their own and a good community. The site presents the hub and its ecosystem – the companies that are part of it and the events that take place there.",
-      "sv": "En digital hubb för startups, mindre IT-bolag och konsulter i Helsingborg som vill ha en egen arbetsplats och ett schysst häng. Sidan presenterar hubben och dess ekosystem – företagen som finns där och de event som arrangeras."
+      "en": "I built this website for a digital hub in Helsingborg for startups, smaller IT companies and consultants. It presents the hub, the companies that are part of it and the events that take place there.",
+      "sv": "Jag har byggt hemsidan för en digital hubb i Helsingborg för startups, mindre IT-bolag och konsulter. Sidan presenterar hubben, företagen som finns där och de event som arrangeras."
     },
-    "teknik": ["React", "Supabase", "Vercel"],
-    "lank": "https://badhusgatan4.vercel.app/"
+    "teknik": [
+      "React",
+      "Supabase",
+      "Vercel"
+    ],
+    "lank": "https://badhusgatan4.vercel.app/",
+    "status": {
+      "en": "Not launched yet",
+      "sv": "Inte lanserad än"
+    },
+    "animation": "hubb"
   },
   {
     "id": 2,
     "titel": "Hantverkskollen",
     "text": {
-      "en": "A Swedish website for finding craftsmen and comparing quotes. Homeowners can search by trade and location, use a price calculator that includes the ROT deduction, and request free, non-binding quotes. It also has guides and articles on prices and deductions.",
-      "sv": "En svensk webbplats för att hitta hantverkare och jämföra offerter. Husägare kan söka efter yrke och ort, använda en priskalkylator som tar hänsyn till ROT-avdraget och begära kostnadsfria, icke bindande offerter. Där finns också guider och artiklar om priser och avdrag."
+      "en": "A marketplace for comparing craftsmen and prices. A price calculator estimates the cost including the ROT deduction, and customers can request up to five non-binding quotes. Built to be fast, clear and findable on Google for each town and trade. I also learned to work with APIs.",
+      "sv": "En marknadsplats där man jämför hantverkare och priser. En priskalkylator uppskattar kostnaden med ROT-avdrag, och kunden kan få upp till fem offerter utan att binda sig. Byggd för att vara snabb, tydlig och hittas på Google för varje ort och yrke. Här har jag också lärt mig att arbeta med API:er."
     },
-    "teknik": [],
-    "lank": "https://www.hantverkskollen.se/"
+    "teknik": [
+      "Next.js",
+      "API",
+      {
+        "en": "Price calculator",
+        "sv": "Priskalkylator"
+      },
+      {
+        "en": "Quote flow",
+        "sv": "Offertflöde"
+      },
+      "SEO"
+    ],
+    "lank": "https://www.hantverkskollen.se/",
+    "animation": "kalkyl"
   }
 ]

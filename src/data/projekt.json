@@ -1,37 +1,69 @@
 [
   {
     "id": 1,
-    "titel": { "en": "Dobot sorting system", "sv": "Dobot-sorteringssystem" },
+    "titel": {
+      "en": "Dobot sorting system",
+      "sv": "Dobot-sorteringssystem"
+    },
     "tid": "2024–2025",
     "text": {
       "en": "Developed a prototype for automated sorting using Dobot Magician, Python and Django. I worked mainly with backend development, REST API design, SQLite and deployment.",
       "sv": "Utvecklade en prototyp för automatiserad sortering med Dobot Magician, Python och Django. Jag arbetade främst med backend-utveckling, REST-API-design, SQLite och driftsättning."
     },
-    "teknik": ["Python", "Django", "REST API", "SQLite"]
+    "teknik": [
+      "Python",
+      "Django",
+      "REST API",
+      "SQLite"
+    ],
+    "animation": "dobot"
   },
   {
     "id": 2,
-    "titel": { "en": "Java game framework", "sv": "Spelramverk i Java" },
+    "titel": {
+      "en": "Java game framework",
+      "sv": "Spelramverk i Java"
+    },
     "tid": "2024",
     "text": {
       "en": "Built a game framework using Java, MVC and the Observer pattern. The work included dynamic game objects, saving, audio and reusable components.",
       "sv": "Byggde ett spelramverk med Java, MVC och Observer-mönstret. Arbetet omfattade dynamiska spelobjekt, sparfunktion, ljud och återanvändbara komponenter."
     },
-    "teknik": ["Java", "OOP", "MVC", "Observer"]
+    "teknik": [
+      "Java",
+      "OOP",
+      "MVC",
+      "Observer"
+    ],
+    "animation": "spel"
   },
   {
     "id": 3,
-    "titel": { "en": "Real-time microkernel system", "sv": "Realtidsmikrokärnsystem" },
+    "titel": {
+      "en": "Real-time microkernel system",
+      "sv": "Realtidsmikrokärnsystem"
+    },
     "tid": "2024",
     "text": {
       "en": "Developed functions for inter-process communication, scheduling, mailboxes and timing in an embedded real-time system.",
       "sv": "Utvecklade funktioner för interprocesskommunikation, schemaläggning, brevlådor och tidshantering i ett inbyggt realtidssystem."
     },
-    "teknik": ["C", "C++", { "en": "Real-time systems", "sv": "Realtidssystem" }]
+    "teknik": [
+      "C",
+      "C++",
+      {
+        "en": "Real-time systems",
+        "sv": "Realtidssystem"
+      }
+    ],
+    "animation": "karna"
   },
   {
     "id": 4,
-    "titel": { "en": "Smart home system", "sv": "Smarthemsystem" },
+    "titel": {
+      "en": "Smart home system",
+      "sv": "Smarthemsystem"
+    },
     "tid": "2023–2024",
     "text": {
       "en": "Built an embedded smart-home prototype using an Atmel SAM3X8E microcontroller, sensors, a servo motor and an LCD display.",
@@ -40,8 +72,15 @@
     "teknik": [
       "C",
       "C++",
-      { "en": "Sensors", "sv": "Sensorer" },
-      { "en": "Embedded systems", "sv": "Inbyggda system" }
-    ]
+      {
+        "en": "Sensors",
+        "sv": "Sensorer"
+      },
+      {
+        "en": "Embedded systems",
+        "sv": "Inbyggda system"
+      }
+    ],
+    "animation": "hem"
   }
 ]

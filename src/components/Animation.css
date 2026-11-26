@@ -1,0 +1,54 @@
+.animation {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #263140;
+  border-radius: 10px;
+  background: #10161e;
+}
+
+.wifi {
+  margin: 20px 0 0;
+}
+
+.a-linje { fill: none; stroke: #3a4757; stroke-width: 2; stroke-linecap: round; }
+.a-tjock { stroke-width: 5; stroke: #5b6a7d; }
+.a-cyan { stroke: #63d8e3; }
+.a-svag { stroke: #63d8e3; opacity: .25; }
+.a-yta { fill: #1d2630; stroke: #3a4757; stroke-width: 1.5; }
+.a-kant { stroke: #63d8e3; }
+.a-fyll { fill: #3a4757; }
+.a-accent { fill: #63d8e3; }
+.a-text { fill: #a8b3c2; font-size: 11px; text-anchor: middle; }
+
+.a-flytta { animation: a-flytta 6s ease-in-out infinite; }
+.a-flode { stroke-dasharray: 14 6; animation: a-flode 1.6s linear infinite; }
+.a-ring { fill: none; stroke: #63d8e3; transform-box: fill-box; transform-origin: center; animation: a-ring 2.4s ease-out infinite; }
+.a-stapel { transform-box: fill-box; transform-origin: bottom; animation: a-stapel 2.8s ease-in-out infinite; }
+.a-arm { animation: a-arm 5s ease-in-out infinite; }
+.a-sidled { animation: a-sidled 4s ease-in-out infinite alternate; }
+.a-studs { animation: a-studs .8s ease-in infinite alternate; }
+.a-uppgift { opacity: .2; animation: a-uppgift 3s steps(1) infinite; }
+.a-blink { animation: a-blink 2s ease-in-out infinite; }
+.a-signal { opacity: .15; animation: a-blink 1.8s ease-in-out infinite; }
+.a-person { fill: #a8b3c2; opacity: .8; animation: a-person 7s ease-in-out infinite alternate; }
+
+@keyframes a-flytta { 0%, 20% { transform: translateX(0); } 40%, 60% { transform: translateX(85px); } 80%, 100% { transform: translateX(170px); } }
+@keyframes a-flode { to { stroke-dashoffset: -40; } }
+@keyframes a-ring { from { transform: scale(1); opacity: .8; } to { transform: scale(2.4); opacity: 0; } }
+@keyframes a-stapel { 0%, 100% { transform: scaleY(.55); } 50% { transform: scaleY(1); } }
+@keyframes a-arm { 0%, 100% { transform: translateX(-70px); } 50% { transform: translateX(70px); } }
+@keyframes a-sidled { to { transform: translateX(120px); } }
+@keyframes a-studs { to { transform: translateY(-36px); } }
+@keyframes a-uppgift { 0% { opacity: 1; } 33%, 100% { opacity: .2; } }
+@keyframes a-blink { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+@keyframes a-person { from { transform: translateX(-140px); } to { transform: translateX(140px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .animation * { animation: none !important; }
+}
+
+@media print {
+  .animation { display: none; }
+}

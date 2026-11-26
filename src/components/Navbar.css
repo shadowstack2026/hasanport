@@ -56,7 +56,7 @@ header {
   border-color: #63d8e3;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1000px) {
   .nav-links { display: none; }
 }
 

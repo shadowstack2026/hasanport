@@ -1,6 +1,7 @@
 import "./Examensarbete.css";
 import SektionRubrik from "./SektionRubrik";
 import Taggar from "./Taggar";
+import WifiAnimation from "./WifiAnimation";
 import examensBild from "../assets/eso.png";
 import { AVHANDLING_URL } from "../data/Settings";
 import { useSprak } from "../utils/useSprak";
@@ -33,6 +34,8 @@ function Examensarbete() {
             </div>
           </div>
         </article>
+
+        <WifiAnimation />
       </div>
     </section>
   );

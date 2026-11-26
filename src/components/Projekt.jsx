@@ -15,7 +15,7 @@ function Projekt() {
         <div className="projects">
           {/* .map() skapar ett kort per projekt i data/projekt.json */}
           {projektLista.map((p) => (
-            <ProjektKort key={p.id} titel={t(p.titel)} tid={p.tid} text={t(p.text)} teknik={p.teknik.map(t)} />
+            <ProjektKort key={p.id} titel={t(p.titel)} tid={p.tid} text={t(p.text)} teknik={p.teknik.map(t)} animation={p.animation} />
           ))}
         </div>
       </div>
